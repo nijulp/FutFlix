@@ -1,0 +1,11 @@
+@import url(./carousel.css);
+@import url(./catalogo.css);
+@import url(./loader.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&family=Rubik:wght@500;600&display=swap');
+
+
+*{
+    transition: all 0.3s ease-out;
+
+}
+   

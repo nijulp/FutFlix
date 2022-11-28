@@ -1,0 +1,56 @@
+.catalogos{
+    position: relative;
+}
+.catalogos .catalogo{
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.catalogos .catalogo div{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.catalogos .slick-arrow{
+    display: none;
+}
+
+.catalogo{
+    position: relative;
+}
+
+.catalogo button{
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    border: none;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-size: 1.6em;
+}
+
+.catalogos ul.slick-dots li{
+    background-color: #000000;
+    border-radius: 20px;
+    width: 30px;
+    height: 10px;
+}
+
+.catalogos ul.slick-dots li.slick-active{
+    background-color: #831010;
+    width: 50px;
+}
+
+#catalogo-placeholder{
+    margin-top: 32px;
+}
+
+.placeholder-item{
+    height: 200px;
+    width: 100%;
+}
